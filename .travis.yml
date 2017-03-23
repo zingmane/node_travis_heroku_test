@@ -1,6 +1,6 @@
 before_script:
-  - yarn install; yarn add -g global
-script: gulp test
+  - npm install; npm install -g gulp
+  script: gulp test
 language: node_js
 env:
   - PORT=7777
